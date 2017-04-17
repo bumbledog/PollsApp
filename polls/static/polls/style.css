@@ -1,7 +1,35 @@
-li a {
-    color: green;
+.result {
+    border: solid;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.result>h1{
+    background-color: rgb(153, 255, 204);
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.question{
+    border: solid;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgb(153, 255, 204);
+}
+
+a{
+    color: black;
+}
+
+ul {
+   list-style-type: none; 
 }
 
 body {
-    background: blue url("images/background.gif") no-repeat right bottom;
+    text-align: center;
 }
